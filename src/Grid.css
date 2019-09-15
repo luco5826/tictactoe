@@ -1,0 +1,43 @@
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+.appear {
+    display: block;
+    text-shadow: 0 0 30px rgb(255, 0, 0);
+    font-size: 10em;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.disappear {
+    display: none;
+}
+
+@media only screen and (max-width:500px) {
+    .appear {
+        font-size: 4em;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        z-index: 99;
+    }
+
+}
